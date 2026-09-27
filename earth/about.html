@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Earthup</title>
+    <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+         <style>
+        /* สไตล์พื้นฐานตามธีมหน้าแรก */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #ffffff;
+            color: #212529;
+        }
+
+        /* ส่วนหัวสีดำ (Hero Section) */
+        .about-hero {
+            background-color: #212529;
+            color: #ffffff;
+            padding: 5rem 0;
+            text-align: center;
+        }
+
+        /* ตกแต่งส่วนหัวข้อย่อย */
+        .section-title {
+            position: relative;
+            padding-bottom: 1rem;
+            margin-bottom: 2rem;
+            font-weight: bold;
+        }
+
+        .section-title::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 50px;
+            height: 3px;
+            background-color: #212529;
+        }
+
+        /* การ์ดแสดงจุดเด่น */
+        .feature-card {
+            border: 1px solid #dee2e6;
+            border-radius: 8px;
+            padding: 2rem;
+            height: 100%;
+            transition: transform 0.2s;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+
+        /* ปุ่มลิงก์กลับไปช้อป */
+        .btn-shop {
+            background-color: #212529;
+            color: #ffffff;
+            padding: 0.75rem 2rem;
+            border-radius: 4px;
+            text-decoration: none;
+            transition: background-color 0.2s;
+        }
+
+        .btn-shop:hover {
+            background-color: #424649;
+            color: #ffffff;
+        }
+
+        /* ท้ายหน้าเว็บ (Footer) */
+        footer {
+            background-color: #212529;
+            color: #868e96;
+            font-size: 0.85rem;
+        }
+    </style>
+</head>
+<body>
+
+<div id="manu1"></div>
+
+    <!-- ส่วนหัวเว็บไซต์ (Hero) -->
+    <header class="about-hero">
+        <div class="container">
+            <h1 class="display-4 fw-bold mb-3">About Earthup</h1>
+            <p class="lead text-muted">ก้าวไปข้างหน้าพร้อมสไตล์ที่ใช่ในแบบคุณ</p>
+        </div>
+    </header>
+
+    <!-- เนื้อหาหลัก (Main Content) -->
+    <main class="container my-5 py-4">
+        <!-- แนะนำร้าน -->
+        <section class="row justify-content-center text-center mb-5">
+            <div class="col-md-8">
+                <h2 class="section-title">เรื่องราวของเรา</h2>
+                <p class="lead text-secondary lh-lg">
+                    ยินดีต้อนรับสู่ <strong>Earthup</strong> พื้นที่สำหรับคนรักสนีกเกอร์และแฟชั่นสปอร์ตสายสตรีท 
+                    เราเริ่มต้นจากความหลงใหลในดีไซน์ ฟังก์ชันการใช้งาน และเรื่องราวที่ซ่อนอยู่เบื้องหลังรองเท้าแต่ละคู่ 
+                    เพื่อส่งต่อแรงบันดาลใจและช่วยให้คุณค้นพบสไตล์ที่สะท้อนตัวตนได้อย่างมั่นใจที่สุด
+                </p>
+            </div>
+        </section>
+
+        <!-- สิ่งที่เราให้ความสำคัญ (Features) -->
+        <section class="mb-5">
+            <h2 class="text-center section-title">สิ่งที่เราให้ความสำคัญ</h2>
+            <div class="row g-4 text-center mt-2">
+                <!-- การ์ด 1 -->
+                <div class="col-md-4">
+                    <div class="feature-card">
+                        <h4 class="fw-bold mb-3">คัดสรรด้วยใจ</h4>
+                        <p class="text-muted mb-0">เราคัดเลือกเฉพาะโมเดลยอดฮิตและไอเทมระดับคลาสสิก ไม่ว่าจะเป็นสายเพอร์ฟอร์มานซ์อย่าง Air Max หรือระดับตำนานอย่าง Jordan</p>
+                    </div>
+                </div>
+                <!-- การ์ด 2 -->
+                <div class="col-md-4">
+                    <div class="feature-card">
+                        <h4 class="fw-bold mb-3">สไตล์ที่เข้าถึงได้</h4>
+                        <p class="text-muted mb-0">เราเชื่อว่าแฟชั่นและสไตล์ที่โดดเด่นไม่จำเป็นต้องจ่ายแพงจนเกินไป มุ่งมั่นนำเสนอสินค้าในราคาที่คุ้มค่าและสมเหตุสมผล</p>
+                    </div>
+                </div>
+                <!-- การ์ด 3 -->
+                <div class="col-md-4">
+                    <div class="feature-card">
+                        <h4 class="fw-bold mb-3">ประสบการณ์ที่ดี</h4>
+                        <p class="text-muted mb-0">ตั้งแต่การเลือกชมสินค้าจนถึงการจัดส่ง สินค้าทุกชิ้นได้รับการดูแลอย่างพิถีพิถันเพื่อให้ถึงมือคุณอย่างปลอดภัยและน่าประทับใจ</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ส่วนท้ายชวนไปช้อปต่อ (Call to Action) -->
+        <section class="text-center bg-light py-5 rounded-3 my-5">
+            <h3 class="fw-bold mb-3">ร่วมเดินทางไปกับเรา</h3>
+            <p class="text-secondary mb-4 mx-auto" style="max-width: 600px;">
+                ไม่ว่าคุณจะเป็นนักสะสมสนีกเกอร์ตัวยง หรือกำลังมองหารองเท้าคู่เก่งที่ใส่สบายสำหรับชีวิตประจำวัน Earthup พร้อมเป็นส่วนหนึ่งในทุกๆ ก้าวของคุณ
+            </p>
+            <a href="index.html" class="btn btn-shop shadow-sm">เลือกชมสินค้าทั้งหมด</a>
+        </section>
+    </main>
+
+    <!-- ท้ายหน้าเว็บ (Footer) -->
+    <footer class="text-center py-4 mt-auto">
+        <div class="container">
+            <p class="mb-0">69701405 © ธีรชัย ศรีนวล</p>
+        </div>
+    </footer>
+
+    <!-- นำเข้า Bootstrap 5 JavaScript Bundle -->
+    <script src="https://jsdelivr.net"></script>
+</body>
+<div id="footer1"></div>
+</html>
+<script src="js/manu.js"></script>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
